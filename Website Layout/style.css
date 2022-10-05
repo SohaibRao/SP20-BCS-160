@@ -61,6 +61,24 @@
 
 .banner-child1{
    max-width: 40%;
+   padding-left: 40px;
+   padding-top: 50px;
+}
+
+.line1{
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+.line2{
+  font-size: 50px;
+  font-weight: 800px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.line3{
+  font-size: 20px;
+  font-weight: 200px;
 }
    
 .banner-child2{
@@ -75,8 +93,22 @@
 .points{
     display: flex;
     align-items: center;
-   
+    margin-top: 30px;
+  
+}
 
+.points h3{
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.points img{
+  width: 30px;
+  height: 25px;
+}
+
+.point_icons{
+  padding-left: 10px;
 }
 
 .banner-img{
@@ -91,6 +123,7 @@
     background-color: #2c76dc;
     border: 1px solid #2c76dc;
     color: #fff;
+    margin-top:30px
 }
 
 #button1:hover{
@@ -147,8 +180,37 @@
 
   .sect3text {
     text-align: center;
-   
+   color: black;
+
   }
+
+  .sect3text2 {
+    text-align: center;
+   color: black;
+   font-size: 70px;
+   font-weight: 900;
+   font-family:serif;
+   width: 800px;
+   margin-left: 20px;
+  }
+
+  .sect3text3{
+    text-align: center;
+   color: black;
+   font-weight: 400;
+   font-size: 25px;
+   width: 700px;
+   margin-left: 90px;
+  }
+
+  .sect3text4{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    padding-top: 30px;
+  }
+
+
 
 
   .cta-button h2{
@@ -166,8 +228,11 @@
 
     border-bottom: .3rem solid #2c76dc;
     color: #2c76dc;
-    font-size: 2.2rem;
-    line-height: 2.7rem;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
+
+    margin-left: 239px;
+    padding-top: 30px;
   }
 
   .section4{
@@ -200,36 +265,31 @@
   }
 
   .search_button{
-    background-position: -100%;
-    background-repeat: no-repeat;
-    background-size: 10% 100%;
     border-radius: .2rem;
     box-sizing: border-box;
-    font-family: proxima-nova,sans-serif;
+    font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     font-weight: 700;
-    overflow: hidden;
+    
     text-align: center;
-    text-decoration: none;
+    
     transition: all .5s ease;
     position: relative;
     background-color: #1d2a3b;
-    background-image: none;
+   
     border: 1px solid #1d2a3b;
     color: #fff;
-    cursor: pointer;
-    display: block;
-    float: none;
+    
     justify-content: center;
     line-height: 3rem;
     flex-basis: auto;
     margin: 0;
-    max-width: none;
-    min-width: fit-content;
-    width: auto;
+    
     font-size: 1.4rem;
     height: 50px;
     padding: 0.2rem 3.5rem;
+
+    margin-left: 25px;
   }
 
   .section5_container{
@@ -241,6 +301,13 @@
   .section5_container_1{
     text-align: center;
   }
+
+  section5_container_1 h1{
+    font-family: serif;
+    font-weight: 900;
+    font-size: 50px;
+  }
+
   .section5_cards{
     display: flex;
 
@@ -269,6 +336,18 @@
     margin-top: 60px;
   }
 
+  .section6_container_col1 h1{
+    font-family: serif;
+    font-weight: 900;
+    font-size: 60px;
+  }
+
+  .section6_container_col1 h3{
+    
+    font-weight: 600;
+    font-size: 20px;
+  }
+
   .col-8{
     background-color: #4A83D8;
   }
@@ -295,7 +374,7 @@
   }
   
   .fa {
-    padding: 20px;
+    padding-right: 30px;
     font-size: 50px;
     width: 20px;
     text-align: center;
@@ -303,3 +382,40 @@
     color: white;
   }
 
+  .text-muted{
+    padding-top: 20px;
+    font-family:  sans-serif;
+  }
+
+
+  .section4_child_col1 p{
+    font-weight: 100;
+    font-size: 25px;
+  }
+
+  
+  .section4_child_col1 h1{
+    font-weight:900;
+    font-size: 60px;
+    font-family: serif;
+  }
+
+  .section4_child_col2 p{
+    font-weight: 300;
+    font-size: 25px;
+  }
+
+  #footerelement{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #footerelement ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .footerright{
+    margin-top: 120px;
+    margin-left: 30px;
+  }
