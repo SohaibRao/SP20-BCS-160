@@ -3,5 +3,5 @@ $(function(){
 })
 
 function handleButton(){
-    alert("hellow")
+   $("#todos").append("<li>"+$("#todoInput").val()+"</li>");
 }
